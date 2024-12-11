@@ -1,14 +1,25 @@
 site_name: mkdocs!
 
 theme:
-  name: "material"
+  name: material
   palette:
-    primary: "black"
-    accent: "light grey"
-    background: "white"
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - search.suggest
 
 plugins:
   - mkdocstrings
+  - search
 
 nav:
   - Welcome: index.md
@@ -16,3 +27,6 @@ nav:
   - How-to guides: how-to-guides.md
   - reference.md
   - explanation.md
+
+repo_url: https://github.com/tomasurdiales/mkdocz
+repo_name: GitHub/mkdocz
