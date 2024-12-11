@@ -23,29 +23,23 @@ The module contains the following functions:
 def add(a: float | int, b: float | int) -> float:
     """Compute and return the sum of two numbers.
 
-    Examples:
-        >>> add(4.0, 2.0)
-        6.0
-        >>> add(4, 2)
-        6.0
-
     Args:
         a: A number representing the first addend in the addition.
         b: A number representing the second addend in the addition.
 
     Returns:
         A number representing the arithmetic sum of `a` and `b`.
+    
+    Examples:
+        >>> add(4.0, 2.0)
+        6.0
+        >>> add(4, 2)
+        6.0
     """
     return float(a + b)
 
 def subtract(a: float | int, b: float | int) -> float:
     """Calculate the difference of two numbers.
-
-    Examples:
-        >>> subtract(4.0, 2.0)
-        2.0
-        >>> subtract(4, 2)
-        2.0
 
     Args:
         a: A number representing the minuend in the subtraction.
@@ -53,17 +47,17 @@ def subtract(a: float | int, b: float | int) -> float:
 
     Returns:
         A number representing the difference between `a` and `b`.
+
+    Examples:
+        >>> subtract(4.0, 2.0)
+        2.0
+        >>> subtract(4, 2)
+        2.0
     """
     return float(a - b)
 
 def multiply(a: float | int, b: float | int) -> float:
     """Compute and return the product of two numbers.
-
-    Examples:
-        >>> multiply(4.0, 2.0)
-        8.0
-        >>> multiply(4, 2)
-        8.0
 
     Args:
         a: A number representing the multiplicand in the multiplication.
@@ -71,21 +65,17 @@ def multiply(a: float | int, b: float | int) -> float:
 
     Returns:
         A number representing the product of `a` and `b`.
+
+    Examples:
+        >>> multiply(4.0, 2.0)
+        8.0
+        >>> multiply(4, 2)
+        8.0
     """
     return float(a * b)
 
 def divide(a: float | int, b: float | int) -> float:
     """Compute and return the quotient of two numbers.
-
-    Examples:
-        >>> divide(4.0, 2.0)
-        2.0
-        >>> divide(4, 2)
-        2.0
-        >>> divide(4, 0)
-        Traceback (most recent call last):
-        ...
-        ZeroDivisionError: division by zero
 
     Args:
         a: A number representing the dividend in the division.
@@ -96,6 +86,16 @@ def divide(a: float | int, b: float | int) -> float:
 
     Raises:
         ZeroDivisionError: An error occurs when the divisor is `0`.
+
+    Examples:
+        >>> divide(4.0, 2.0)
+        2.0
+        >>> divide(4, 2)
+        2.0
+        >>> divide(4, 0)
+        Traceback (most recent call last):
+        ...
+        ZeroDivisionError: division by zero
     """
     if b == 0:
         raise ZeroDivisionError("division by zero")
