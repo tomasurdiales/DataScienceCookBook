@@ -21,7 +21,7 @@ theme:
     text: Roboto Mono
   icon:
       repo: fontawesome/brands/github
-  logo: elia-group-logo.png
+  logo: assets/elia-group-logo.png
   features:
     - search.suggest
     - navigation.instant
