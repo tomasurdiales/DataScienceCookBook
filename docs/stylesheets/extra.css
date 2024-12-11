@@ -1,0 +1,5 @@
+/* Default (light theme) */
+:root {
+    --md-primary-fg-color: #F0801A;
+    --md-accent-fg-color: #E75420;
+}
