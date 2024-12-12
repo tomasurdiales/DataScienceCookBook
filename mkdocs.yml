@@ -22,6 +22,7 @@ theme:
   icon:
       repo: fontawesome/brands/github
   logo: assets/elia-group-logo.png
+
   features:
     - search.suggest
     - navigation.instant
@@ -32,6 +33,9 @@ extra_css:
 plugins:
   - mkdocstrings
   - search
+
+markdown_extensions:
+  - admonition
 
 nav:
   - Welcome: index.md
