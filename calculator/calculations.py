@@ -5,7 +5,7 @@ This module allows the user to make mathematical calculations.
 Examples:
     >>> from calculator import calculations
     >>> calculations.add(2, 4)
-    6.0
+    6
     >>> calculations.multiply(2.0, 4.0)
     8.0
     >>> from calculator.calculations import divide
@@ -35,7 +35,7 @@ def add(a: int | float, b: int | float) -> int | float:
         >>> add(4.0, 2.0)
         6.0
         >>> add(4, 2)
-        6.0
+        6
     """
     return a + b
 
@@ -54,7 +54,7 @@ def subtract(a: int | float, b: int | float) -> int | float:
         >>> subtract(4.0, 2.0)
         2.0
         >>> subtract(4, 2)
-        2.0
+        2
     """
     return a - b
 
@@ -73,7 +73,7 @@ def multiply(a: int | float, b: int | float) -> int | float:
         >>> multiply(4.0, 2.0)
         8.0
         >>> multiply(4, 2)
-        8.0
+        8
     """
     return a * b
 
