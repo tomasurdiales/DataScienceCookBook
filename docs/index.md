@@ -1,6 +1,6 @@
 Demo of framework to **easily** build your project documentation in a professional and beautiful way, using just `python` and `markdown`! 🚀
 
-All thanks to the open-source magic of: `MkDocs`, `Material for MkDocs` and `mkdocstrings` ! 🤓
+All thanks to the open-source magic of: [`MkDocs`](https://www.mkdocs.org/), [`Material for MkDocs`](https://squidfunk.github.io/mkdocs-material/) and [`mkdocstrings`](https://mkdocstrings.github.io/) ! 🤓
 
 !!! warning
     This format is in the process of soon becoming the official directive/recommendation for all projects by the AI & Data Science Sub-Chapter.
