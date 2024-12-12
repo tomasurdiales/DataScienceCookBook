@@ -1,10 +1,7 @@
 {
 	"build": {
 		"dockerfile": "../Dockerfile",
-		"target": "base",
-		"options": [
-			"--platform=linux/amd64"
-		]
+		"target": "base"
 	},
 	"remoteUser": "root",
 	"mounts": [
