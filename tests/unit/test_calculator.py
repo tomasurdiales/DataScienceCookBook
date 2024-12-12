@@ -2,7 +2,7 @@ import pytest
 from calculator import calculations
 
 
-def test_add():
+def test_calculations_add():
     assert calculations.add(4, 2) == 6
     assert calculations.add(4.0, 2.0) == 6.0
     assert calculations.add(-1, 1) == 0

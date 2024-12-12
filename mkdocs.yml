@@ -1,5 +1,13 @@
 site_name: docs!
 
+nav:
+  - Welcome: index.md
+  - tutorials.md
+  - How-to guides: how-to-guides.md
+  - reference.md
+  - explanation.md
+  - Unit tests: unit-tests.md
+
 theme:
   name: material
   palette:
@@ -22,27 +30,18 @@ theme:
   icon:
       repo: fontawesome/brands/github
   logo: assets/elia-group-logo.png
-
   features:
     - search.suggest
     - navigation.instant
 
-extra_css:
-  - stylesheets/extra.css
-
 plugins:
   - mkdocstrings
   - search
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
-
-nav:
-  - Welcome: index.md
-  - tutorials.md
-  - How-to guides: how-to-guides.md
-  - reference.md
-  - explanation.md
 
 repo_url: https://github.com/tomasurdiales/mkdocz
 repo_name: GitHub/mkdocz
