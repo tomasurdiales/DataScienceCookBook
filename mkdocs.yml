@@ -30,15 +30,38 @@ theme:
   features:
     - search.suggest
     - navigation.instant
+    - content.code.copy
 
 plugins:
-  - mkdocstrings
-  - search
+  search:
+  mkdocstrings:
+    handlers:
+      python:
+        options:
+          show_root_heading: true
+          show_if_no_docstring: true
+          inherited_members: true
+          members_order: source
+          separate_signature: true
+          unwrap_annotated: true
+          merge_init_into_class: true
+          docstring_section_style: spacy
+          signature_crossrefs: true
+          show_symbol_type_heading: true
+          show_symbol_type_toc: true
+
 extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
-  - admonition
+  - admonition:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 repo_url: https://github.com/tomasurdiales/datasciencecookbook
 repo_name: GitHub/DataScienceCookBook
