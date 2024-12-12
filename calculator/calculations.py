@@ -25,8 +25,8 @@ def add(a: int | float, b: int | float) -> int | float:
     """Compute and return the sum of two numbers.
 
     Args:
-        a: A number representing the first addend in the addition.
-        b: A number representing the second addend in the addition.
+        a (int | float): A number representing the first addend in the addition.
+        b (int | float): A number representing the second addend in the addition.
 
     Returns:
         A number representing the arithmetic sum of `a` and `b`.
@@ -44,8 +44,8 @@ def subtract(a: int | float, b: int | float) -> int | float:
     """Calculate the difference of two numbers.
 
     Args:
-        a: A number representing the minuend in the subtraction.
-        b: A number representing the subtrahend in the subtraction.
+        a (int | float): A number representing the minuend in the subtraction.
+        b (int | float): A number representing the subtrahend in the subtraction.
 
     Returns:
         A number representing the difference between `a` and `b`.
@@ -63,8 +63,8 @@ def multiply(a: int | float, b: int | float) -> int | float:
     """Compute and return the product of two numbers.
 
     Args:
-        a: A number representing the multiplicand in the multiplication.
-        b: A number representing the multiplier in the multiplication.
+        a (int | float): A number representing the multiplicand in the multiplication.
+        b (int | float): A number representing the multiplier in the multiplication.
 
     Returns:
         A number representing the product of `a` and `b`.
@@ -82,8 +82,8 @@ def divide(a: int | float, b: int | float) -> float:
     """Compute and return the quotient of two numbers.
 
     Args:
-        a: A number representing the dividend in the division.
-        b: A number representing the divisor in the division.
+        a (int | float): A number representing the dividend in the division.
+        b (int | float): A number representing the divisor in the division.
 
     Returns:
         A number representing the quotient of `a` and `b`.
