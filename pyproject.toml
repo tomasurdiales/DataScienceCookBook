@@ -11,6 +11,7 @@ python = "3.11.*"
 mkdocs = "^1.6.1"
 mkdocstrings = {extras = ["python"], version = "^0.27.0"}
 mkdocs-material = "^9.5.48"
+black = "^24.10.0"
 
 [tool.poetry.group.dev]
 optional = true

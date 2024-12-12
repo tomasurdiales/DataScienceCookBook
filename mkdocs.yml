@@ -2,7 +2,7 @@ site_name: Data Science CookBook
 
 nav:
   - CookBook: 
-      - Welcome!: cookbook/index.md
+      - Welcome!: index.md
       - Unit tests: cookbook/unit-tests.md
   - Demo docs:
     - Welcome: demo/index.md
