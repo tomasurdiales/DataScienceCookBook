@@ -1,0 +1,26 @@
+{
+	"build": {
+		"dockerfile": "../Dockerfile",
+		"options": [
+			"--platform=linux/amd64"
+		]
+	},
+	"remoteUser": "root",
+	"mounts": [
+		"target=${containerWorkspaceFolder}/.venv,type=volume"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter",
+				"ms-python.python",
+				"ms-python.black-formatter"
+			]
+		}
+	},
+	"features": {
+        "ghcr.io/devcontainers/features/azure-cli": "latest",
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+    "onCreateCommand": "containerWorkspaceFolder=${containerWorkspaceFolder} ./.devcontainer/onCreateCommand.sh"
+}
