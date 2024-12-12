@@ -1,11 +1,4 @@
-This site contains the project documentation for the
-`calculator` project that is a toy module used in the
-Real Python tutorial
-[Build Your Python Project Documentation With MkDocs](
-    https://realpython.com/python-project-documentation-with-mkdocs/).
-Its aim is to give you a framework to build your
-project documentation using Python, MkDocs,
-mkdocstrings, and the Material for MkDocs theme.
+Framework to build your project documentation using Python, MkDocs, mkdocstrings, and the Material for MkDocs theme.
 
 The documentation follows the best practice for
 project documentation as described by Daniele Procida
@@ -23,10 +16,3 @@ your use case by looking at the different pages.
 ## Project Overview
 
 ::: calculator
-
-## Acknowledgements
-
-I want to thank my house plants for providing me with
-a negligible amount of oxygen each day. Also, I want
-to thank the sun for providing more than half of their
-nourishment free of charge.
