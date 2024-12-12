@@ -2,11 +2,14 @@ site_name: Data Science CookBook
 
 nav:
   - CookBook: 
-      - Welcome!: index.md
-      - Unit tests: unit-tests.md
+      - Welcome!: cookbook/index.md
+      - Unit tests: cookbook/unit-tests.md
   - Demo docs:
-    - How-to guides: how-to-guides.md
-    - reference.md
+    - Welcome: demo/index.md
+    - demo/tutorials.md
+    - How-to guides: demo/how-to-guides.md
+    - demo/reference.md
+    - demo/explanation.md
 
 theme:
   name: material
