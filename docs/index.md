@@ -23,7 +23,7 @@ Quickly find what you're looking for depending on
 your use case by looking at the different pages.
 
 > **Note:**
-> We are still debating whether to take up this exact approach or something more suited to the needs of the AI & Data Science Sub-Chapter.
+> we are still debating whether to take up this exact approach or something more suited to the needs of the AI & Data Science Sub-Chapter.
 
 ---
 

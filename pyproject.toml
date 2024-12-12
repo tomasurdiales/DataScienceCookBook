@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "mkdocz"
+name = "cookbook"
 version = "0.1.0"
 description = "Quick virtual environment to demo mkdocs, material for mkdocs and mkdocstrings framework."
 authors = ["Tomás Urdiales <tomas.urdialesbartolome@externel.be>"]
