@@ -21,7 +21,7 @@ The module contains the following functions:
 """
 
 
-def add(a: float | int, b: float | int) -> float:
+def add(a: int | float, b: int | float) -> int | float:
     """Compute and return the sum of two numbers.
 
     Args:
@@ -37,10 +37,10 @@ def add(a: float | int, b: float | int) -> float:
         >>> add(4, 2)
         6.0
     """
-    return float(a + b)
+    return a + b
 
 
-def subtract(a: float | int, b: float | int) -> float:
+def subtract(a: int | float, b: int | float) -> int | float:
     """Calculate the difference of two numbers.
 
     Args:
@@ -56,10 +56,10 @@ def subtract(a: float | int, b: float | int) -> float:
         >>> subtract(4, 2)
         2.0
     """
-    return float(a - b)
+    return a - b
 
 
-def multiply(a: float | int, b: float | int) -> float:
+def multiply(a: int | float, b: int | float) -> int | float:
     """Compute and return the product of two numbers.
 
     Args:
@@ -75,10 +75,10 @@ def multiply(a: float | int, b: float | int) -> float:
         >>> multiply(4, 2)
         8.0
     """
-    return float(a * b)
+    return a * b
 
 
-def divide(a: float | int, b: float | int) -> float:
+def divide(a: int | float, b: int | float) -> float:
     """Compute and return the quotient of two numbers.
 
     Args:
@@ -103,7 +103,7 @@ def divide(a: float | int, b: float | int) -> float:
     """
     if b == 0:
         raise ZeroDivisionError("division by zero")
-    return float(a / b)
+    return a / b
 
 
 if __name__ == "__main__":
