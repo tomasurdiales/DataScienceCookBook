@@ -20,6 +20,7 @@ The module contains the following functions:
 - `divide(a, b)` - Returns the quotient of two numbers.
 """
 
+
 def add(a: float | int, b: float | int) -> float:
     """Compute and return the sum of two numbers.
 
@@ -29,7 +30,7 @@ def add(a: float | int, b: float | int) -> float:
 
     Returns:
         A number representing the arithmetic sum of `a` and `b`.
-    
+
     Examples:
         >>> add(4.0, 2.0)
         6.0
@@ -37,6 +38,7 @@ def add(a: float | int, b: float | int) -> float:
         6.0
     """
     return float(a + b)
+
 
 def subtract(a: float | int, b: float | int) -> float:
     """Calculate the difference of two numbers.
@@ -56,6 +58,7 @@ def subtract(a: float | int, b: float | int) -> float:
     """
     return float(a - b)
 
+
 def multiply(a: float | int, b: float | int) -> float:
     """Compute and return the product of two numbers.
 
@@ -73,6 +76,7 @@ def multiply(a: float | int, b: float | int) -> float:
         8.0
     """
     return float(a * b)
+
 
 def divide(a: float | int, b: float | int) -> float:
     """Compute and return the quotient of two numbers.
