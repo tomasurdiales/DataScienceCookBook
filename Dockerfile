@@ -16,5 +16,8 @@ COPY poetry.lock pyproject.toml ./
 # Install dependencies
 RUN poetry install
 
+# Production image
+FROM base AS prod
+
 # Copy the source code
 COPY . .

@@ -1,6 +1,7 @@
 {
 	"build": {
 		"dockerfile": "../Dockerfile",
+		"target": "base",
 		"options": [
 			"--platform=linux/amd64"
 		]
