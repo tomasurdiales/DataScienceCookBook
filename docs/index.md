@@ -1,4 +1,12 @@
-Framework to build your project documentation using Python, MkDocs, mkdocstrings, and the Material for MkDocs theme.
+Demo of framework to **easily** build your project documentation. 🚀
+
+This format is in the process of soon becoming the official directive/recommendation for all projects by the AI & Data Science Sub-Chapter.
+
+Using: `python`, `MkDocs`, `Material for MkDocs` and `mkdocstrings`! 🤓
+
+Demo by Tomás Urdiales ([tomas.urdialesbartolome@externel.be](mailto:tomas.urdialesbartolome@externel.be)).
+
+---
 
 The documentation follows the best practice for
 project documentation as described by Daniele Procida
@@ -13,6 +21,11 @@ and consists of four separate parts:
 Quickly find what you're looking for depending on
 your use case by looking at the different pages.
 
-## Project Overview
+> **Note:**
+> We are still debating whether to take up this exact approach or something more suited to the needs of the AI & Data Science Sub-Chapter.
+
+---
+
+## Project Overview: `calculator`
 
 ::: calculator
