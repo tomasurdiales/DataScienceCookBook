@@ -18,7 +18,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Roboto Mono
+    text: Montserrat  # Roboto Mono
   icon:
       repo: fontawesome/brands/github
   logo: assets/elia-group-logo.png
