@@ -18,7 +18,7 @@ https://tomasurdiales.github.io/mkdocz/
 
 ---
 
-# Getting started
+## Getting started
 
 ###  Requirements
 
