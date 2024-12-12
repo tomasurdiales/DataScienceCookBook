@@ -1,12 +1,10 @@
-# Documentation Demo! - AI & Data Science Sub-Chapter 🚀
+# Documentation demo! AI & DS Sub-Chapter 🚀
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![code style - Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![types - mypy](https://img.shields.io/badge/types-Mypy-blue.svg)](https://github.com/python/mypy)
 
-**Authors: Tomás Urdiales**
-
-Correspondence: [tomas.urdialesbartolome@externel.be](mailto:tomas.urdialesbartolome@externel.be)
+**Authors**: Tomás Urdiales ([tomas.urdialesbartolome@externel.be](mailto:tomas.urdialesbartolome@externel.be))
 
 ---
 
