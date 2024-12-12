@@ -1,7 +1,8 @@
+# Reference
+
 This part of the project documentation focuses on
 an **information-oriented** approach. Use it as a
 reference for the technical implementation of the
-`very_complex_ai_product` project code.
+`very_complex_ai_product` module.
 
-<h5 style="text-transform: lowercase;">src/very_complex_ai_product.py</h5>
 ::: src.very_complex_ai_product

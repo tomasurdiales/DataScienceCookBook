@@ -24,11 +24,11 @@ The folder structure we typically recommend is:
 Where `tests/unit/` contains all the unit tests and `tests/integration/` contains all the integration tests.
 
 To run all tests and provide a summary of the results, use the following command:
-```bash
+```sh
 pytest
 ```
 If you want to run a specific test file, you can simply do:
-```bash
+```sh
 pytest tests/unit/test_very_complex_ai_product.py
 ```
 
@@ -43,5 +43,18 @@ When writing new tests, follow these guidelines:
 ---
 ## Example of a unit test
 
-<h5 style="text-transform: lowercase;">tests/unit/test_very_complex_ai_product.py</h5>
+```python
+# tests/unit/test_very_complex_ai_product.py
+
+import pytest
+from src import very_complex_ai_product
+
+def test_very_complex_ai_product_FUNCTION_TO_BE_TESTED() -> None:
+    assert very_complex_ai_product.FUNCTION_TO_BE_TESTED(...) == ...
+    with pytest.raises(ZeroDivisionError):
+        very_complex_ai_product.FUNCTION_TO_BE_TESTED(...)
+```
+
+<br><br>
+And here is the actual implementation of `test_very_complex_ai_product.py` in this repo:
 ::: tests.unit.test_very_complex_ai_product

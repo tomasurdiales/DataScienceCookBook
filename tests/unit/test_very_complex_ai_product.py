@@ -1,14 +1,5 @@
 """Unit tests for `very_complex_ai_product` module.
 
-Examples:
-    >>> import pytest
-    >>> from src import very_complex_ai_product
-    >>>
-    >>> def test_very_complex_ai_product_FUNCTION_TO_BE_TESTED() -> None:
-    >>>     assert very_complex_ai_product.FUNCTION_TO_BE_TESTED(...) == ...
-    >>>     with pytest.raises(ZeroDivisionError):
-    >>>         very_complex_ai_product.FUNCTION_TO_BE_TESTED(...)
-
 The module contains the following functions:
 
 - `test_very_complex_ai_product_add` - Test the very_complex_ai_product.add function.
