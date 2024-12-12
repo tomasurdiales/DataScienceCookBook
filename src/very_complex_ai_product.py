@@ -1,14 +1,14 @@
-"""Provide several sample math calculations.
+"""Provide state-of-the-art artifical intelligence services.
 
-This module allows the user to make mathematical calculations.
+This module allows the user to perform incredibly powerful mathematical calculations (powered by AI 💅).
 
 Examples:
-    >>> from calculator import calculations
-    >>> calculations.add(2, 4)
+    >>> from src import very_complex_ai_product
+    >>> very_complex_ai_product.add(2, 4)
     6
-    >>> calculations.multiply(2.0, 4.0)
+    >>> very_complex_ai_product.multiply(2.0, 4.0)
     8.0
-    >>> from calculator.calculations import divide
+    >>> from src.very_complex_ai_product import divide
     >>> divide(4.0, 2)
     2.0
 

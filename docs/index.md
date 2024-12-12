@@ -27,6 +27,6 @@ your use case by looking at the different pages.
 
 ---
 
-## Project Overview: `calculator`
+## Project Overview:
 
-::: calculator
+::: src

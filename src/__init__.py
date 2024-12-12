@@ -2,5 +2,5 @@
 
 Modules exported by this package:
 
-- `calculations.py`: Provide several sample math calculations.
+- `very_complex_ai_product.py`: Provide several sample math calculations.
 """
