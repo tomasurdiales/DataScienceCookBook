@@ -2,10 +2,7 @@ site_name: Data Science CookBook
 
 nav:
   - Welcome: index.md
-  - tutorials.md
-  - How-to guides: how-to-guides.md
   - reference.md
-  - explanation.md
   - Unit tests: unit-tests.md
 
 theme:

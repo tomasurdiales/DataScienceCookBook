@@ -7,6 +7,8 @@ All thanks to the open-source magic of: [`MkDocs`](https://www.mkdocs.org/), [`M
 
 Demo by Tomás Urdiales ([tomas.urdialesbartolome@externel.be](mailto:tomas.urdialesbartolome@externel.be)).
 
+Soon to be hosted on: [developerhub.eliagroup.io](https://developerhub.eliagroup.io/)
+
 ---
 
 The documentation follows the best practice for
@@ -14,10 +16,10 @@ project documentation as described by Daniele Procida
 in the [Diátaxis documentation framework](https://diataxis.fr/)
 and consists of four separate parts:
 
-1. [Tutorials](tutorials.md)
-2. [How-to guides](how-to-guides.md)
+1. Tutorials
+2. How-to guides
 3. [Reference](reference.md)
-4. [Explanation](explanation.md)
+4. Explanation
 
 Quickly find what you're looking for depending on
 your use case by looking at the different pages.
