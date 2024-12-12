@@ -1,10 +1,10 @@
-# Data Science CookBook! AI & DS Sub-Chapter 🚀
+# Data Science CookBook! 🚀
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![code style - Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![types - mypy](https://img.shields.io/badge/types-Mypy-blue.svg)](https://github.com/python/mypy)
 
-**Authors**: Tomás Urdiales ([tomas.urdialesbartolome@externel.be](mailto:tomas.urdialesbartolome@externel.be))
+**AI & DS Sub-Chapter**. **Authors**: Tomás Urdiales ([tomas.urdialesbartolome@externel.be](mailto:tomas.urdialesbartolome@externel.be))
 
 → This repository demonstrates a framework to **easily** build professional and beautiful project documentation using just `python` and `markdown`! 🚀
 
@@ -14,7 +14,7 @@ You can check out the results here:
 https://tomasurdiales.github.io/mkdocz/
 
 > **Note:**
-> This format is in the process of soon becoming the official directive/recommendation for all projects by the AI & Data Science Sub-Chapter.
+> this format is in the process of soon becoming the official directive/recommendation for all projects by the AI & Data Science Sub-Chapter.
 
 ---
 
