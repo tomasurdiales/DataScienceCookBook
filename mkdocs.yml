@@ -1,4 +1,4 @@
-site_name: docs!
+site_name: Data Science CookBook
 
 nav:
   - Welcome: index.md
@@ -43,7 +43,7 @@ extra_css:
 markdown_extensions:
   - admonition
 
-repo_url: https://github.com/tomasurdiales/mkdocz
-repo_name: GitHub/mkdocz
+repo_url: https://github.com/tomasurdiales/datasciencecookbook
+repo_name: GitHub/DataScienceCookBook
 
 copyright: Copyright &copy; 2024 <a href="https://www.eliagroup.eu/">Elia Group</a>. Correspondence to <a href="mailto:tomas.urdialesbartolome@externel.be">tomas.urdialesbartolome@externel.be</a>.
