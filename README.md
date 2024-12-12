@@ -10,6 +10,13 @@
 
 # Getting Started
 
+→ This repository demonstrates a framework to **easily** build professional and beautiful project documentation using just `python` and `markdown`! 🚀
+
+All thanks to the open-source magic of: [`MkDocs`](https://www.mkdocs.org/), [`Material for MkDocs`](https://squidfunk.github.io/mkdocs-material/) and [`mkdocstrings`](https://mkdocstrings.github.io/) ! 🤓
+
+> **Note:**
+> This format is in the process of soon becoming the official directive/recommendation for all projects by the AI & Data Science Sub-Chapter.
+
 ###  Requirements
 
 - [Poetry](https://python-poetry.org/)

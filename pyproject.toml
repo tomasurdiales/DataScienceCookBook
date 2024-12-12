@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "docz"
+name = "mkdocz"
 version = "0.1.0"
-description = ""
+description = "Quick virtual environment to demo mkdocs, material for mkdocs and mkdocstrings framework."
 authors = ["Tomás Urdiales <tomas.urdialesbartolome@externel.be>"]
 readme = "README.md"
 package-mode = false
