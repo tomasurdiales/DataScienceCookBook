@@ -17,7 +17,7 @@ in the [Diátaxis documentation framework](https://diataxis.fr/)
 and consists of four separate parts:
 
 1. Tutorials
-2. How-to guides
+2. [How-to guides](how-to-guides.md)
 3. [Reference](reference.md)
 4. Explanation
 
