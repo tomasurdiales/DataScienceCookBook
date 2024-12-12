@@ -1,8 +1,9 @@
-Demo of framework to **easily** build your project documentation. 🚀
+Demo of framework to **easily** build your project documentation in a professional and beautiful way, using just `python` and `markdown`! 🚀
 
-This format is in the process of soon becoming the official directive/recommendation for all projects by the AI & Data Science Sub-Chapter.
+All thanks to the open-source magic of: `MkDocs`, `Material for MkDocs` and `mkdocstrings` ! 🤓
 
-Using: `python`, `MkDocs`, `Material for MkDocs` and `mkdocstrings`! 🤓
+!!! warning
+    This format is in the process of soon becoming the official directive/recommendation for all projects by the AI & Data Science Sub-Chapter.
 
 Demo by Tomás Urdiales ([tomas.urdialesbartolome@externel.be](mailto:tomas.urdialesbartolome@externel.be)).
 
